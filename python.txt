@@ -1,0 +1,41 @@
+print(var name):use to print the value passed as the argument.
+----------------------------------------------------------------
+input():it takes input from users .
+>>> pocketmoney = input("enter your pocket money")
+enter your pocket money2000
+>>> print(pocketmoney)
+2000
+----------------------------------------------------
+if....elif....else
+pocketmoney = input("enter your pocket money")
+enter your pocket money2000
+>>> print(pocketmoney)
+2000 if (pocketmoney > 500):
+    	print("you are a rich kid")
+ elif(pocketmoney > 100):
+   	 print("you have a good life")
+ else:
+     print("i know what you feel")
+-----------------------------------------------------
+for loop
+myfriends=["karthik","sanath","samapth"]
+>>> for friend in myfriends:
+...     print(friend)
+...
+karthik
+sanath
+samapth
+----------------------------------------------
+while loop
+ count=5
+>>> while(count >= 0):
+...     print(count)
+...     count=count -1
+...
+5
+4
+3
+2
+1
+0
+-----------------------
